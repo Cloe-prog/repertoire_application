@@ -43,7 +43,7 @@
     - debug:
         var=result
         
-   - name: On supprime le conteneur si existant
+    - name: On supprime le conteneur si existant
       shell: docker rm -f conteneur_app
       ignore_errors: true
 
