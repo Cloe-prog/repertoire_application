@@ -11,7 +11,7 @@
         var=result_install
 
     - name: Installation de python3
-      shell: amazon-linux-extras install -y python3.8
+      shell: apt update && apt install -y python3.8
       register: result_install
 
     - debug:
