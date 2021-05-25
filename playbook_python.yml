@@ -4,7 +4,7 @@
 
   tasks:
     - name: Installation de Docker et démarrage de docker
-      shell: amazon-linux-extras install -y docker && systemctl start docker
+      shell: systemctl start docker
       register: result_install
 
     - debug:
