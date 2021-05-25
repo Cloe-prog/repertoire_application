@@ -22,7 +22,7 @@
         path: /app
         state: directory
         mode: 0777
-        owner: ec2-user
+        owner: ubuntu
 
     - name: Copier (faire un scp) l'archive sur le dossier remote /app
       copy:
