@@ -4,7 +4,7 @@
 
   tasks:
     - name: Démarrage de docker
-      shell: sudo systemctl restart docker
+      shell: systemctl start docker
       register: result_install
 
     - debug:
